@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-US" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.14" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.52" />
+    <style>
+      html {
+        background: var(--bg-color, #fff);
+      }
+
+      html[data-theme="dark"] {
+        background: var(--bg-color, #1d1e1f);
+      }
+
+      body {
+        background: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <meta property="og:url" content="https://ciaotomorrow.github.io/demo/disable.html"><meta property="og:title" content="Disabling layout and features"><meta property="og:description" content="You can disable some function and layout on the page by setting the Frontmatter of the page."><meta property="og:type" content="website"><meta property="og:locale" content="en-US"><meta property="og:updated_time" content="2024-08-31T00:28:40.000Z"><meta property="article:author" content="Wang Huaijin"><meta property="article:modified_time" content="2024-08-31T00:28:40.000Z"><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Disabling layout and features","description":"You can disable some function and layout on the page by setting the Frontmatter of the page."}</script><link rel="icon" href="/assets/images/favicon2.ico"><title>Disabling layout and features</title><meta name="description" content="You can disable some function and layout on the page by setting the Frontmatter of the page.">
+    <link rel="preload" href="/assets/style-CnxeriLK.css" as="style"><link rel="stylesheet" href="/assets/style-CnxeriLK.css">
+    <link rel="modulepreload" href="/assets/app-DNfDrjAU.js"><link rel="modulepreload" href="/assets/disable.html-kAJQE7e-.js">
+    <link rel="prefetch" href="/assets/Homepage.html-B_sywLv_.js" as="script"><link rel="prefetch" href="/assets/index.html-CMZXdjav.js" as="script"><link rel="prefetch" href="/assets/intro.html-DCO5ImKy.js" as="script"><link rel="prefetch" href="/assets/index.html-C1sHIJs3.js" as="script"><link rel="prefetch" href="/assets/encrypt.html-aWcDBGXT.js" as="script"><link rel="prefetch" href="/assets/layout.html-CYhSKcsZ.js" as="script"><link rel="prefetch" href="/assets/markdown.html-D5Rb63lH.js" as="script"><link rel="prefetch" href="/assets/page.html-DmGaqhX_.js" as="script"><link rel="prefetch" href="/assets/cherry.html-hNIFDlBT.js" as="script"><link rel="prefetch" href="/assets/dragonfruit.html-B2m8ja1e.js" as="script"><link rel="prefetch" href="/assets/strawberry.html-CPXx2h7H.js" as="script"><link rel="prefetch" href="/assets/tomato.html-DKygQ_Ba.js" as="script"><link rel="prefetch" href="/assets/1.html-BGCkpqrj.js" as="script"><link rel="prefetch" href="/assets/2.html-w8enmRZ2.js" as="script"><link rel="prefetch" href="/assets/3.html-vzbWaAuC.js" as="script"><link rel="prefetch" href="/assets/4.html-C7qnse-D.js" as="script"><link rel="prefetch" href="/assets/1.html-C5c58v-E.js" as="script"><link rel="prefetch" href="/assets/2.html-D5ZO6Wkf.js" as="script"><link rel="prefetch" href="/assets/3.html-Dwcm6_Wv.js" as="script"><link rel="prefetch" href="/assets/4.html-D2yGZZu0.js" as="script"><link rel="prefetch" href="/assets/404.html-DEnPMxuU.js" as="script"><link rel="prefetch" href="/assets/index.html-DsuhRI19.js" as="script"><link rel="prefetch" href="/assets/index.html-esy_SfGe.js" as="script"><link rel="prefetch" href="/assets/index.html-BtX7snnq.js" as="script"><link rel="prefetch" href="/assets/index.html-C878anRl.js" as="script"><link rel="prefetch" href="/assets/index.html-WQLXLTF_.js" as="script"><link rel="prefetch" href="/assets/index.html-CYyUmVi-.js" as="script"><link rel="prefetch" href="/assets/index.html-lD3pwhE-.js" as="script"><link rel="prefetch" href="/assets/index.html-DRZxrHtA.js" as="script"><link rel="prefetch" href="/assets/index.html-CjmzN1k2.js" as="script"><link rel="prefetch" href="/assets/index.html-mYD1Y46w.js" as="script"><link rel="prefetch" href="/assets/index.html-CIujbg6J.js" as="script"><link rel="prefetch" href="/assets/index.html-P5b7axQ4.js" as="script"><link rel="prefetch" href="/assets/photoswipe.esm-GXRgw7eJ.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">Skip to main content</a><!--]--><!--[--><div class="theme-container no-navbar no-sidebar external-link-icon pure has-toc"><!----><!----><div class="toggle-sidebar-wrapper"><span class="arrow start"></span></div><aside id="sidebar" class="vp-sidebar"><!----><ul class="vp-sidebar-links"></ul><!----></aside><!--[--><!--[--><main id="main-content" class="vp-page"><!--[--><!----><!----><nav class="vp-breadcrumb disable"></nav><div class="vp-page-title"><h1><span class="font-icon icon fa-fw fa-sm fas fa-gears" style=""></span>Disabling layout and features</h1><!----><hr></div><!----><!----><div class="theme-hope-content"><p>You can disable some function and layout on the page by setting the Frontmatter of the page.</p><!-- more --><p>This page is an demo that disables the following features:</p><ul><li>Navbar</li><li>Sidebar</li><li>Breadcrumb</li><li>Page information</li><li>Contributors</li><li>Edit link</li><li>Update time</li><li>Prev/Next link</li><li>Comment</li><li>Footer</li><li>Back to top button</li></ul></div><!----><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><!----><!----></div></footer><!----><!----><!----><!--]--></main><!--]--><!--]--><!----></div><!--]--><!--]--><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-DNfDrjAU.js" defer></script>
+  </body>
+</html>
